@@ -1,0 +1,44 @@
+.wm{
+   height:800px;
+   width:100%;
+   background: url(../img/abcd.jpg);
+   background-size:100% 100%;
+   background-repeat: repeat;
+   background-attachment: fixed;
+
+   position: relative;
+top:-30px;
+ h2{
+    position: absolute;
+    top:50px;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left:200px;
+}}
+.tags{
+    height:500px;
+    width:80%;
+    top:150px;
+    left:150px;
+    position: absolute;
+    border:2px solid gray;
+h2{top:20px;
+    position: absolute;
+    left:70px;
+}
+div{
+    display: inline-block;
+input{
+position: relative;
+height:40px;
+width:400px;    
+top:100px;
+left:150px;
+margin:20px;
+}
+.ss{
+    height:200px;
+    width:840px;
+}
+}
+}

@@ -1,0 +1,39 @@
+.measure{
+    height:700px;
+    width:100%;
+    background:url(../img/sff.jpg);
+    background-size:100% 100%;
+    top:-30px;
+    position: relative;
+    transition:5s;
+    background-repeat: no-repeat;
+&:hover{
+    transform: scale(1.2);
+}
+h2{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top:200px;
+    font-size:35px;
+    left:200px;
+}
+
+p{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top:270px;
+    font-size:20px;
+    left:170px;
+}
+button{
+    position: absolute;
+    height:40px;
+    width:120px;
+    border:none;
+    top:350px;
+    left:230px;
+    background: black;
+    color:white;
+}&:hover{
+    background:rgb(197, 174, 159);
+}}

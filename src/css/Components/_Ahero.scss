@@ -1,0 +1,9 @@
+.about-hero{
+    @include hero("text");
+    background-image: url(../images/plate4.jpg);
+    background-size: cover;
+    height:100vh;
+}
+.copy{
+    color:red;
+}

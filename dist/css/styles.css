@@ -1,0 +1,478 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);.services .services-title {
+  text-align: center; }
+  .services .services-title .heading {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    color: black; }
+  .services .services-title p {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    font-weight: 400; }
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  color: #fff;
+  background-color: black;
+  box-shadow: 0px 5px 50px 5px black;
+  display: flex;
+  align-items: center;
+  z-index: 999; }
+  .navbar .nav-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    flex-basis: 50%; }
+    .navbar .nav-right .nav {
+      list-style: none;
+      display: flex;
+      flex-basis: 100%;
+      justify-content: space-evenly; }
+      .navbar .nav-right .nav .nav-items {
+        padding: 10px;
+        cursor: pointer;
+        transition: 0.5s; }
+        .navbar .nav-right .nav .nav-items .link {
+          color: #fff;
+          text-decoration: none; }
+        .navbar .nav-right .nav .nav-items:hover {
+          letter-spacing: 3px;
+          font-weight: bolder; }
+        .navbar .nav-right .nav .nav-items:after {
+          bottom: 0px;
+          content: "";
+          display: block;
+          margin: 5px auto;
+          position: relative;
+          transition: all 280ms ease-in-out;
+          width: 0px; }
+        .navbar .nav-right .nav .nav-items:hover:after {
+          text-align: center;
+          transition: all 350ms ease-in-out;
+          width: 100%; }
+
+.navbar img {
+  margin-left: 100px; }
+
+.hero {
+  background-color: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .hero .hero-title {
+    font-size: 70px;
+    margin-bottom: 50px;
+    font-weight: bolder; }
+  .hero .btn-hero {
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bolder;
+    transition: .5s;
+    background-color: #34495e;
+    border-radius: 15px; }
+    .hero .btn-hero:hover {
+      letter-spacing: 2px; }
+
+.mySlides {
+  display: none; }
+
+.laptop {
+  height: 500px; }
+
+img {
+  vertical-align: middle; }
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto; }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0; }
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center; }
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0; }
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease; }
+
+.active, .dot:hover {
+  background-color: #717171; }
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+.nn {
+  color: white;
+  z-index: 999;
+  top: 200px;
+  left: 200px;
+  position: absolute; }
+
+.pp {
+  color: #bb115f;
+  z-index: 999;
+  top: 260px;
+  left: 280px;
+  position: absolute; }
+
+.aa {
+  color: white;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 120px;
+  border-radius: 20px;
+  z-index: 999;
+  top: 340px;
+  background: #bb115f;
+  left: 330px;
+  position: absolute;
+  transition: 2s; }
+  .aa:hover {
+    background: white;
+    color: #bb115f;
+    transform: scale(1.2); }
+
+.qq {
+  color: white;
+  z-index: 999;
+  top: 260px;
+  left: 280px;
+  position: absolute; }
+
+.section {
+  height: 600px;
+  position: relative; }
+
+.laptop h1 {
+  z-index: 999;
+  top: 820px;
+  left: 400px;
+  font-family: 'open sans';
+  position: absolute; }
+
+.laptop p {
+  z-index: 999;
+  top: 890px;
+  font-size: 20px;
+  left: 100px;
+  font-family: 'open sans';
+  position: absolute; }
+
+.mobile {
+  z-index: 999;
+  top: 960px;
+  height: 200px;
+  width: 200px;
+  background: red;
+  left: 100px;
+  position: absolute;
+  background: url("images/malai.gif");
+  background-size: 100% 100%;
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  border: 10px solid #f70b64; }
+
+.charger {
+  z-index: 999;
+  top: 960px;
+  height: 200px;
+  width: 200px;
+  background: red;
+  left: 400px;
+  position: absolute;
+  border: 10px solid #f70b64;
+  background: url("images/malai.gif");
+  background-size: 100% 100%;
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); }
+
+.phn {
+  z-index: 999;
+  top: 960px;
+  height: 200px;
+  border: 10px solid #f70b64;
+  width: 200px;
+  background: red;
+  left: 700px;
+  position: absolute;
+  background: url("images/malai.gif");
+  background-size: 100% 100%;
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); }
+
+.mzakh {
+  z-index: 999;
+  border: 10px solid #f70b64;
+  top: 960px;
+  height: 200px;
+  width: 200px;
+  background: red;
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  background: url("images/malai.gif");
+  background-size: 100% 100%;
+  left: 1000px;
+  position: absolute; }
+
+.usb {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background: #01145e;
+  border-bottom: 15px solid #f70b64;
+  clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 85%, 100% 99%, 81% 91%, 57% 96%, 29% 92%, 0 100%); }
+
+.cup {
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  border: 10px solid #f70b64;
+  top: 70px;
+  left: 70px;
+  border-radius: 20px; }
+  .cup .plus {
+    height: 100%;
+    width: 100%; }
+
+.section-bar {
+  position: absolute;
+  height: 400px;
+  width: 50%;
+  border: 10px solid #f70b64;
+  background: white;
+  top: 30px;
+  left: 600px; }
+  .section-bar h2 {
+    position: absolute;
+    width: 75%;
+    top: 30px;
+    left: 120px;
+    font-family: 'open sans';
+    color: black; }
+  .section-bar p {
+    position: absolute;
+    width: 90%;
+    font-size: 20px;
+    top: 130px;
+    left: 50px;
+    font-family: 'open sans';
+    color: black; }
+  .section-bar button {
+    height: 30px;
+    width: 100px;
+    background: #bb115f;
+    top: 300px;
+    left: 300px;
+    color: white;
+    position: absolute;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    transition: 2s; }
+    .section-bar button:hover {
+      background: black;
+      color: #bb115f;
+      transform: scale(1.2); }
+
+.hero-title {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background: white; }
+  .hero-title h1 {
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px; }
+  .hero-title p {
+    color: black;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px; }
+  .hero-title .cover {
+    height: 300px;
+    width: 300px;
+    background: #01145e;
+    top: 150px;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    border: 10px solid #f70b64;
+    left: 130px;
+    position: absolute; }
+    .hero-title .cover h2 {
+      color: white;
+      position: absolute;
+      top: 20px;
+      font-size: 40px;
+      left: 120px; }
+    .hero-title .cover h3 {
+      color: white;
+      position: absolute;
+      top: 80px;
+      font-size: 18px;
+      left: 20px;
+      white-space: nowrap; }
+    .hero-title .cover p {
+      color: white;
+      position: absolute;
+      top: 130px;
+      width: 70%;
+      z-index: 999;
+      font-size: 15px;
+      left: 50px; }
+  .hero-title .wall {
+    height: 300px;
+    border: 10px solid #f70b64;
+    width: 300px;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    background: #01145e;
+    top: 150px;
+    left: 530px;
+    position: absolute; }
+    .hero-title .wall h2 {
+      color: white;
+      position: absolute;
+      top: 20px;
+      font-size: 40px;
+      left: 120px; }
+    .hero-title .wall h3 {
+      color: white;
+      position: absolute;
+      top: 80px;
+      font-size: 18px;
+      left: 20px;
+      white-space: nowrap; }
+    .hero-title .wall p {
+      color: white;
+      position: absolute;
+      top: 130px;
+      width: 70%;
+      z-index: 999;
+      font-size: 15px;
+      left: 50px; }
+  .hero-title .bottle {
+    height: 300px;
+    border: 10px solid #f70b64;
+    width: 300px;
+    background: #01145e;
+    top: 150px;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    left: 930px;
+    position: absolute; }
+    .hero-title .bottle h2 {
+      color: white;
+      position: absolute;
+      top: 20px;
+      font-size: 40px;
+      left: 120px; }
+  .hero-title h3 {
+    color: white;
+    position: absolute;
+    top: 80px;
+    font-size: 18px;
+    left: 20px;
+    white-space: nowrap; }
+  .hero-title .faltu {
+    position: absolute;
+    left: 460px;
+    top: 80px; }
+  .hero-title p {
+    color: white;
+    position: absolute;
+    top: 130px;
+    width: 70%;
+    z-index: 999;
+    font-size: 15px;
+    left: 50px; }
+
+.footer {
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+  padding-top: 10px;
+  height: 10vh;
+  color: #fff; }
+
+.about-hero {
+  background-color: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/aboutUs_hero.png);
+  background-size: cover;
+  height: 100vh; }
+  .about-hero .hero-title {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 50px;
+    font-weight: bolder; }
+  .about-hero p {
+    text-align: center;
+    width: 500px;
+    color: #fff; }
+
+.section-main {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background: pink; }
+
+.offers {
+  height: 400px;
+  width: 100%;
+  position: relative; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Sans", sans-serif; }
+
+/*# sourceMappingURL=styles.css.map*/
